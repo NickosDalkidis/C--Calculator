@@ -1,9 +1,10 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 int main()
 {
 	int x;
-	double y, sum, sub{}, mult, div;
+	double y, sum, sub{}, mult, div, raised;
 	cout << "please enter the first number:";
 	cin >> x;
 	cout << "please enter the second  number:";
@@ -17,7 +18,7 @@ int main()
 	if (y != 0) {
 		div = x / y;
 	}
-
+	raised=pow(x,y)
 	//end of operations
 	cout << "'\n' Addition" << sum;
 	cout << "'\n' Subtraction " << sub;
